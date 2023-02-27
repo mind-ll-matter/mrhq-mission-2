@@ -1,0 +1,99 @@
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+nav > ul {
+    display: flex;
+    gap: 4rem; /*adds gap between children elements*/ 
+    margin-right: 2rem;
+    list-style: none; /* list-style allows you to remove the dots on the list item */
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ------------------- choose-content ------------------- */
+
+
+#choose-content {
+    display: flex;
+    flex-direction: column;
+    padding:2rem 2.5rem;
+    margin: 10rem;
+    border: dashed black 0.2rem;
+    border-radius: 1rem;
+    margin-bottom: 0;
+}
+
+#choose-content h1 {
+    text-align: center; /* center the text within the h1 element */
+}
+
+#show-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#show-buttons button {
+    background-color: aqua;
+    color: white;
+    border-radius: 0.3rem;
+    border-color: black;
+    border: solid black 0.15rem;
+    padding: 0.5rem 1.5rem;
+}
+
+
+/* ------------------- double-sect ------------------- */
+
+#double-sect {
+    display: flex;
+
+}
+
+#hero-image-sect {
+    background-color: blue;
+}
+
+#form-sect {
+    background-color: aqua;
+}
+
+#hero-image-sect, img {
+    max-width: 50%;
+}
+
+#hero-image-sect, #form-sect {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+#placeholderSectH3 {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
